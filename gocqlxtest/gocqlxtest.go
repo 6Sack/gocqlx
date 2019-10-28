@@ -28,6 +28,11 @@ var (
 	clusterHosts []string
 )
 
+var _ = func() bool {
+	testing.Init()
+	return true
+}()
+
 func init() {
 	flag.Parse()
 	clusterHosts = strings.Split(*flagCluster, ",")
