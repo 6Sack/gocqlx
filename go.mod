@@ -1,4 +1,4 @@
-module github.com/scylladb/gocqlx
+module github.com/6sack/gocqlx
 
 require (
 	github.com/bitly/go-hostpool v0.0.0-20171023180738-a3a6125de932 // indirect
@@ -12,3 +12,5 @@ require (
 	github.com/stretchr/testify v1.3.0 // indirect
 	gopkg.in/inf.v0 v0.9.1
 )
+
+go 1.13
